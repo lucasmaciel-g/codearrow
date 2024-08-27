@@ -34,22 +34,22 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 20px 30px;
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.cabecalho .logo{
-    max-width: 100%;
+.cabecalho_logo{
+    max-width: 200px;
 }
 
-.menu_navegacao{
+.cabecalho_menu{
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.menu_navegacao a{
+.cabecalho_menu a{
     color: #777;
     font-size: 20px;
     font-weight: 500;
@@ -57,74 +57,74 @@ ul{
     transition: .4s;
 }
 
-.menu_navegacao a:hover{
+.cabecalho_menu a:hover{
     color: #1A374D;
 }
 
-.principal_conteudo{
+.principal_bg{
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
     display: flex;
     max-width: 1140px;
     padding: 30px;
-    margin: 0 auto;
-    justify-content: space-between;
+    gap: 30px;
 }
 
-.conteudo_imagem1, .conteudo_projetos{
-    width: 501px;
+.principal_imagem1 > img{
+    max-width: 501px;
 }
 
-.conteudo_imagem1 > img{
-    width: 100%;
-}
-
-.conteudo_projetos{
+.principal_projetos{
     display: flex;
     flex-direction: column;
     gap: 32px;
-    padding: 30px 50px;
+    padding: 0 50px;
+    justify-content: center;
 }
 
-.conteudo_projetos h1{
+.principal_projetos h1{
     font-size: 60px;
     font-weight: 700;
     color: #008C87;
     line-height: 1.1;
 }
 
-.conteudo_projetos p{
+.principal_projetos p{
     color: #111;
     line-height: 2;
 }
 
-.projetos_menu{
+.principal_menu{
     display: flex;
     gap: 50px;
 }
 
-.projetos_menu .menu_botaoPrimario{
-    background-color: #008C87;
-    color: #F4FAFA;
+.menu_botaoPrimario, .menu_botaoSecundario{
     padding: 12px 35px 12px 34px;
     border-radius: 8px;
     font-weight: 700;
+    letter-spacing: 1px;
     display: flex;
     transition: .5s;
 }
 
-.projetos_menu .menu_botaoPrimario:hover{
+.menu_botaoPrimario{
+    background-color: #008C87;
+    color: #F4FAFA;
+}
+
+.menu_botaoPrimario:hover{
     background-color: #1a1a1a;
 }
 
-.projetos_menu .menu_botaoSecundario{
+.menu_botaoSecundario{
     background-color: #E5E5E5;
     color: #060606;
-    padding: 12px 35px 12px 34px;
-    border-radius: 8px;
-    font-weight: 700;
-    display: flex;
-    transition: .5s;
 }
 
-.projetos_menu .menu_botaoSecundario:hover{
+.menu_botaoSecundario:hover{
     background-color: #c4c4c4;
 }
