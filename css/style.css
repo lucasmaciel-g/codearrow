@@ -34,26 +34,26 @@ ul{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 30px;
-    max-width: 1140px;
+    padding: 1.25rem 1.875rem;
+    max-width: 71.25rem;
     margin: 0 auto;
 }
 
 .cabecalho_logo{
-    max-width: 200px;
+    max-width: 12.5rem;
 }
 
 .cabecalho_menu{
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     flex-wrap: wrap;
 }
 
 .cabecalho_menu a{
     color: #777;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
-    padding: 15px 10px;
+    padding: 0.9375rem 0.625rem;
     transition: .4s;
 }
 
@@ -61,53 +61,67 @@ ul{
     color: #1A374D;
 }
 
-.principal_bg{
+.principal_bg, .equipe_bg{
     display: flex;
     justify-content: center;
 }
 
-.principal{
-    display: flex;
-    max-width: 1140px;
-    padding: 30px;
-    gap: 30px;
+.principal_bg{
+    height: calc(100vh - 5.2775rem);
 }
 
-.principal_imagem1 > img{
-    max-width: 501px;
+.principal, .equipe{
+    display: flex;
+    max-width: 71.25rem;
+    padding: 1.875rem;
+    gap: 1.875rem;
+}
+
+.principal_imagem1{
+    display: flex;
+    align-items: center;
+}
+
+.principal_imagem1  img{
+    max-width: 31.3125rem;
+}
+
+.principal_projetos, .equipe_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    /* padding: 0 3.125rem; */
 }
 
 .principal_projetos{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    padding: 0 50px;
-    justify-content: center;
+    padding: 1.875rem 3.125rem;
 }
 
-.principal_projetos h1{
-    font-size: 60px;
+.principal_projetos h1, .equipe_texto h2{
+    font-size: 3.75rem;
     font-weight: 700;
     color: #008C87;
     line-height: 1.1;
 }
 
-.principal_projetos p{
-    color: #111;
+.principal_projetos p, .equipe_texto p{
+    color: #222;
     line-height: 2;
+    font-size: 1.25rem;
 }
 
 .principal_menu{
     display: flex;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .menu_botaoPrimario, .menu_botaoSecundario{
-    padding: 12px 35px 12px 34px;
-    border-radius: 8px;
+    padding: 1rem 2.1875rem 1rem 2.125rem;
+    border-radius: 0.5rem;
     font-weight: 700;
-    letter-spacing: 1px;
-    display: flex;
+    letter-spacing: 0.0625rem;
     transition: .5s;
 }
 
@@ -127,4 +141,64 @@ ul{
 
 .menu_botaoSecundario:hover{
     background-color: #c4c4c4;
+}
+
+.equipe_bg{
+    background-color: #f2f2f2;
+    min-height: 100vh;
+}
+
+.equipe{
+    justify-content: space-between;
+}
+
+.equipe_texto{
+    max-width: 50%;
+    padding: 0 1.875rem 0 0;
+}
+
+.equipe_texto h2{
+    max-width: 16ch;
+    font-size: 3rem;
+}
+
+.equipe_texto p{
+    /* max-width: 45ch; */
+    font-size: 1.25rem;
+}
+
+.equipe_integrantes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+.integrantes_id{
+    display: flex;
+    align-items: center;
+    gap: 1.875rem;
+    padding: 0.9375rem 1.875rem;
+    border-bottom: 0.0625rem solid #999;
+}
+
+.equipe_integrantes img{
+    width: 4.56rem;
+    border: 0.3125rem solid #008C87;
+    border-radius: 50%;
+}
+
+.integrante_nomeCargo{
+    display: inline-block;
+}
+
+.integrante_nomeCargo h3{
+    font-size: 1.125rem;
+    line-height: 1.2;
+}
+
+.equipe_integrantes p{
+    font-style: italic;
+    color: #222;
 }
