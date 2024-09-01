@@ -31,17 +31,18 @@ ul{
 
 .cabecalho{
     display: flex;
-    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
+    flex-grow: 1;
+    flex-basis: 0;
     flex-wrap: wrap;
     padding: 1.25rem 1.875rem;
-    max-width: 71.25rem;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 .cabecalho_logo{
-    max-width: 12.5rem;
+    max-width: 200px;
 }
 
 .cabecalho_menu{
@@ -62,33 +63,33 @@ ul{
     color: #1A374D;
 }
 
-.principal_bg, .equipe_bg, .cabecalho_bg{
+.cabecalho_bg, .principal_bg, .equipe_bg{
     display: flex;
     justify-content: center;
 }
 
 .principal_bg{
     height: calc(100vh - 5.2775rem);
-    display: flex;
 }
 
 .principal, .equipe{
     display: flex;
-    justify-content: space-between;
     flex-grow: 1;
-    max-width: 71.25rem;
+    flex-basis: 0;
+    max-width: 1140px;
     gap: 1.875rem;
+    padding: 1.875rem;
 }
 
 .principal_imagem1{
     display: flex;
     align-items: center;
     flex-grow: 1;
-    max-width: 50%;
+    flex-basis: 0;
+
 }
 
 .principal_imagem1  img{
-    max-height: 100%;
     max-width: 100%;
 }
 
@@ -96,13 +97,15 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
     align-items: flex-start;
     gap: 2rem;
-    max-width: 50%;
 }
 
 .principal_projetos h1, .equipe_texto h2{
     font-size: 3.75rem;
+    max-width: 10ch;
     font-weight: 700;
     color: #008C87;
     line-height: 1.1;
@@ -111,6 +114,7 @@ ul{
 .principal_projetos p, .equipe_texto p{
     color: #222;
     line-height: 2;
+    max-width: 45ch;
     font-size: 1.25rem;
 }
 
@@ -148,35 +152,25 @@ ul{
 .equipe_bg{
     background-color: #f2f2f2;
     min-height: 100vh;
-    display: flex;
 }
 
-.equipe_texto{
-    max-width: 50%;
-    padding: 0 1.875rem 0 0;
-}
 
 .equipe_texto h2{
-    max-width: 16ch;
+    max-width: 15ch;
     font-size: 3rem;
-}
-
-.equipe_texto p{
-    font-size: 1.25rem;
 }
 
 .equipe_integrantes{
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
     gap: 0.75rem;
-    max-width: 50%;
 }
 
 .integrantes_id{
     display: flex;
-    flex-grow: 1;
     align-items: center;
     gap: 1.875rem;
     padding: 0.9375rem 1.875rem;
