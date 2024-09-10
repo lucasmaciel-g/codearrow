@@ -235,7 +235,7 @@ ul{
     text-align: center;
 }
 
-.video_texto h2, .migracao_texto h2{
+.video_texto h2, .migracao_texto h2, .controle_texto h2{
     font-size: 2.75rem;
 }
 
@@ -328,29 +328,78 @@ ul{
     max-width: 100%;
 }
 
-.migracao_card h3, .sucesso .menu_botaoPrimario{
+.migracao_card h3, .controle_card h3{
     font-size: 1.25rem;
 }
 
-.migracao_card p{
+.migracao_card p, .controle p{
     font-size: 1.125rem;
     line-height: 1.4;
 }
 
 .sucesso_bg{
-    min-height: 30vh;
+    padding: 80px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #D9FFFE;
 }
 
+.sucesso{
+    gap: 60px
+}
+
 .sucesso h2{
     font-weight: 400;
-    color: #273945;
-    font-size: 3.4rem;
+    color: #21323f;
+    font-size: 3.5rem;
 }
 
 .sucesso .menu_botaoPrimario{
     font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.controle_bg{
+    background-image: url(../img/6-controle-total.png);
+    background-color: #FFF;
+    background-position: left top;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.controle{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    background-color: #FFF;
+    gap: 30px;
+}
+
+.controle_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.controle_baralho{
+    display: flex;
+    gap: 50px;
+}
+
+.controle_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid #060606;
+    padding-top: 20px;
+    /* flex-grow: 1; */
+    /* flex-basis: 0; */
+}
+
+.controle .menu_botaoPrimario{
+    align-self: flex-start;
 }
