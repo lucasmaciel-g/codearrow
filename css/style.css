@@ -94,8 +94,7 @@ ul{
 
 .principal, .equipe, .video, .migracao, .sucesso{
     display: flex;
-    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
-    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex: 1; 
     max-width: 1200px;
     padding: 1.875rem;
     gap: 120px;
@@ -104,8 +103,7 @@ ul{
 .principal_imagem1{
     display: flex;
     align-items: center;
-    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
-    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex: 1; 
 }
 
 .principal_imagem1  img{
@@ -114,8 +112,7 @@ ul{
 
 .principal_projetos, .equipe_texto, .video, .video_texto, .migracao, .migracao_texto, .sucesso{
     display: flex;
-    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
-    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex: 1; 
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -189,8 +186,7 @@ ul{
 
 .equipe_integrantes{
     display: flex;
-    flex-grow: 1; /* Esse flex-item vai ter o seu tamanho aumentado caso sobre espaço no elemento pai */
-    flex-basis: 0; /* Os irmãos desse flex-item vão fazer de tudo pra ter o mesmo tamanho */
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     gap: 0.75rem;
@@ -238,8 +234,7 @@ ul{
 }
 
 .video_texto{
-    flex-grow: 0;
-    flex-basis: auto;
+    flex: 0;
 }
 
 .video_texto h2, .migracao_texto h2, .controle_texto h2{
@@ -317,8 +312,7 @@ ul{
     background-color: #0606065e;
     color: #F2F2F2;
     padding: 32px 32px 64px 32px;
-    flex-grow: 1;
-    flex-basis: 0;
+    flex: 1;
     gap: 30px;
 }
 
@@ -380,8 +374,7 @@ ul{
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-grow: 1;
-    flex-basis: 0;
+    flex: 1;
 }
 
 /* Caso use uma img diretamente no html, usar com essas propriedades de css */
@@ -399,8 +392,7 @@ ul{
     padding: 60px;
     background-color: #FFF;
     gap: 30px;
-    flex-grow: 1;
-    flex-basis: 0;
+    flex: 1;
 }
 
 .controle_texto{
@@ -446,4 +438,136 @@ ul{
 
 .controle .menu_botaoPrimario{
     align-self: flex-start;
+}
+
+.rodape_bg{
+    background-color: #0A151D;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    max-width: 1200px;
+    padding: 5rem 0;
+    gap: 120px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rodape_texto{
+    display: flex;
+    gap: 80px;
+}
+
+.rodape_textoSobre{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rodape_textoLogo{
+    max-width: 80%;
+}
+
+.rodape_textoSobre p{
+    color: #F2F2F2;
+    font-size: 1rem;
+    max-width: 35rch;
+}
+
+.rodape_textoRedes{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.rodape_textoRedes a{
+    color: #f2f2f2;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.rodape_textoRedes a:hover{
+    color: #008C87;
+}
+
+.rodape_textoMapa{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.rodape_mapaCards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+}
+
+.rodape_mapaCards nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape_mapaCards h3{
+    color: #008D86;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.rodape_mapaCards ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape_mapaCards a{
+    display: inline-block;
+    color: #D5F4F4;
+    font-size: 0.8rem;
+    transition: .1s;
+}
+
+.rodape_mapaCards a:hover{
+    text-decoration: underline;
+}
+
+.rodape_termoUso{
+    display: flex;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_termoUso ul{
+    display: flex;
+    gap: 30px;
+}
+
+.rodape_termoLinks a{
+    color: #F2F2F2;
+    text-decoration: underline;
+    transition: .1s;
+}
+
+.rodape_termoLinks a:hover{
+    text-decoration: none;
+}
+
+.rodape_termoAssinatura{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.rodape_termoAssinatura p {
+    color: #F2F2F2;
+    font-size: 1rem;
+    max-width: 100%;
 }
