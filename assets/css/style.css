@@ -1,0 +1,57 @@
+/* GLOBAL */
+
+/* Global */
+
+@import url("./global/global.css");
+
+/* Backgrounds */
+
+@import url("./global/backgrounds.css");
+
+/* COMPONENTES */
+
+/* Containers */
+
+@import url("./global/containers.css");
+
+/* Botões */
+
+@import url("./global/botoes.css");
+
+/* Subtítulos */
+
+@import url(".global/subtitulos.css");
+
+/* Parágrafos */
+
+@import url("./global/paragrafos.css");
+
+/* SEÇÕES */
+
+/* Cabeçalho */
+
+@import url("./cabecalho/cabecalho.css");
+
+/* Principal */
+
+@import url("./principal/principal.css");
+
+/* Equipe */
+
+@import url("./equipe/equipe.css");
+
+/* Video */
+
+@import url("./video/video.css");
+
+/* Migração */
+
+@import url("./migracao/migracao.css");
+
+/* Controle */
+
+@import url("./controle/controle.css");
+
+/* Rodapé */
+
+@import url("./rodape/rodape.css");

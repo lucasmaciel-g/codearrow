@@ -1,0 +1,66 @@
+.rodape_texto{
+    display: flex;
+    gap: 80px;
+}
+
+.rodape_textoSobre{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.rodape_textoLogo{
+    max-width: 80%;
+}
+
+.rodape_textoRedes{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.rodape_textoMapa{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+}
+
+.rodape_mapaCards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+}
+
+.rodape_mapaCards nav, .rodape_mapaCards ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rodape_mapaCards h3{
+    color: #008D86;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.rodape_termoUso{
+    display: flex;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_termoUso ul{
+    display: flex;
+    gap: 30px;
+}
+
+.rodape_termoAssinatura{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+

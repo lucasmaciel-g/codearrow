@@ -1,0 +1,41 @@
+.bg{
+    display: flex;
+    justify-content: center;
+}
+
+.principal_bg{
+    height: calc(90vh - 5.2775rem);
+}
+
+.equipe_bg{
+    background-color: #f2f2f2;
+    min-height: 90vh;
+    padding: 3.4375rem 0;
+}
+
+.video_bg, .migracao_bg{
+    min-height: 90vh;
+    background-image: linear-gradient(to bottom, #F2F2F2 50%, #008C87 50%);
+    align-items: center;
+}
+
+.migracao_bg{
+    background: #008C87;
+    min-height: 100vh;
+    padding: 3.4375rem 0;
+}
+
+.sucesso_bg{
+    padding: 80px 30px;
+    align-items: center;
+    background-color: #D9FFFE;
+}
+
+.controle_bg{
+    background-color: #FFF;
+    display: flex;
+}
+
+.rodape_bg{
+    background-color: #0A151D;
+}

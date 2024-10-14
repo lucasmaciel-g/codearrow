@@ -1,0 +1,107 @@
+.estilo_botao{
+    padding: .75rem 2.1875rem .75rem 2.125rem;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    transition: .5s;
+}
+
+.menu_botao_1{
+    color: #777;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 0.9375rem 0.625rem;
+    display: inline-block;
+    transition: .4s;
+}
+
+.menu_botao_1:hover{
+    color: #1A374D;
+    font-weight: bold;
+}
+
+.menu_botao_2, .menu_botao_5{
+    background-color: #008C87;
+    color: #F4FAFA;
+}
+
+.menu_botao_2:hover{
+    background-color: #1a1a1a;
+}
+
+.menu_botao_3{
+    background-color: #E5E5E5;
+    color: #060606;
+}
+
+.menu_botao_3:hover{
+    background-color: #c4c4c4;
+}
+
+.menu_botao_4{
+    padding: 0.625rem 2rem;
+    border: #008C87 solid 1px;
+    border-radius: 8px;
+    color: #008C87;
+    font-weight: 700;
+    letter-spacing: 0.0625rem;
+    transition: .5s;
+}
+
+.menu_botao_4:hover{
+    background-color: #008C8720;
+}
+
+.menu_botao_5{
+    border: 3px solid #F4FAFA;
+    background-color: #f4fafa18;
+    transition: .5s;
+}
+
+.menu_botao_5:hover{
+    background-color: transparent;
+}
+
+.menu_botao_6{
+    display: inline-block;
+    color: #D5F4F4;
+    font-size: 0.8rem;
+    transition: .1s;
+}
+
+.menu_botao_6:hover{
+    text-decoration: underline;
+}
+
+.menu_botao_7{
+    color: #F2F2F2;
+    text-decoration: underline;
+    transition: .1s;
+}
+
+.menu_botao_7:hover{
+    text-decoration: none;
+}
+
+.sucesso .menu_botao_2{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.controle .menu_botao_2{
+    align-self: flex-start;
+}
+
+.botao_redes_sociais{
+    color: #f2f2f2;
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+}
+
+.botao_redes_sociais:hover{
+    color: #008C87;
+}
+
+

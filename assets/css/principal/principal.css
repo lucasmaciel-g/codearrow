@@ -1,0 +1,12 @@
+.principal_imagem1{
+    display: flex;
+    align-items: center;
+    flex: 1; 
+}
+
+.principal_menu{
+    display: flex;
+    gap: 3.125rem;
+}
+
+

@@ -1,0 +1,28 @@
+.controle_img{
+    background-image: url("../../img/6-controle-total.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+}
+
+.controle_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.controle_baralho{
+    display: flex;
+    gap: 40px;
+}
+
+.controle_card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    flex: 1;
+}
+
